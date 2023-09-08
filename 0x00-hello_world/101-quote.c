@@ -8,6 +8,6 @@ int main(void)
 {
 	const char *quote = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	size_t length = strlen(quote);
-	write(1, quote, lentgh);
+	write(1, quote, length);
 	return (1);
 }
