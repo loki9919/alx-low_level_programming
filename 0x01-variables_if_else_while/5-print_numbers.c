@@ -8,10 +8,11 @@ int main(void)
 {
 	unsigned char N = '0';
 
-	while (N <= 9)
+	while (N <= '9')
 {
-	printf("%c\n", N);
+	putchar(N);
 	N++;
 }
+	putchar('\n');
 	return (0);
 }
