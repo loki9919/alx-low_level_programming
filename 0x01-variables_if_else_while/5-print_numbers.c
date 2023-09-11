@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	char N = '0';
+	unsigned char N = '0';
 
 	while (N <= '10')
 {
