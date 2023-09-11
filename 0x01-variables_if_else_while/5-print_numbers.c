@@ -8,9 +8,9 @@ int main(void)
 {
 	unsigned char N = '0';
 
-	while (N <= 10)
+	while (N <= 9)
 {
-	printf("%c \n", N);
+	printf("%c\n", N);
 	N++;
 }
 	return (0);
