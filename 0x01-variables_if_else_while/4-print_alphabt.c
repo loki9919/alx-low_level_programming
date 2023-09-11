@@ -12,12 +12,13 @@ int main(void)
 {
 	putchar(lowercase);
 	lowercase++;
+}
 	if (lowercase == 'e')
-	{
+{
 	putchar('\0');
 }
 	if (lowercase == 'q')
-	{
+{
 	putchar('\0');
 }
 	putchar('\n');
