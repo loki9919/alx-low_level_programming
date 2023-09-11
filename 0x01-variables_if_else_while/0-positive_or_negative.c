@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* i include the <stdio.h> for printf command */
 
-/* main - this is main function */
+/**
+ * main - this is main function
+ * Return: always 0
+*/
 int main(void)
 {
 	int n;
