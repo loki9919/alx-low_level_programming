@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - this is the main function
- * Retur: always 0
+ * print_alphabet - print the lower case alphabet from 'a' to 'z' followed by new line
 */
 
 void print_alphabet(void)
