@@ -18,6 +18,7 @@ void print_alphabet_x10(void)
 			letters++;
 		}
 	_putchar('\n');
+	i++;
 	}
 		
 }
