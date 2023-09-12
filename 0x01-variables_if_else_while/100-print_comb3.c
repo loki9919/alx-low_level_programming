@@ -18,8 +18,8 @@ int main(void)
 			putchar(second_digit + '0');
 			if (first_digit != 8)
 			{
-				putchar(",");
-				putchar(" ");
+				putchar(',');
+				putchar(' ');
 			}
 			second_digit++;
 		}
