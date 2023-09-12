@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	unsigned int frist_digit = 0;
+	unsigned int firstt_digit = 0;
 
 	while (first_digit < 9)
 	{
@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar(first_digit + '0');
 			putchar(second_digit + '0');
-			if (firt_digit != 8)
+			if (first_digit != 8)
 			{
 				putchar(",");
 				putchar(" ");
