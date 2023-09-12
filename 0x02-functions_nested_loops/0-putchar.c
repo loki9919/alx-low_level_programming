@@ -8,10 +8,10 @@
 int main(void)
 
 {
-	int printPutchar();
+	printPutchar();
 	return (0);
 }
-void prtintPutchar()
+void prtintPutchar(void)
 {
 	putchar('_');
 	putchar('p');
