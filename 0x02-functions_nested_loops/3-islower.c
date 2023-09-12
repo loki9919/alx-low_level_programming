@@ -3,7 +3,7 @@
 /**
  * int _islower(int c) - similair to the islower function
 */
-int _islower(int c);
+int _islower(int c)
 
 {
 	char ch;
