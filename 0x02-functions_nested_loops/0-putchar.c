@@ -7,12 +7,13 @@
  * Return: always 0
 */
 int main(void)
-
 {
-/*printPutchar - is to print the string "_putchar"*/
 	printPutchar();
 	return (0);
 }
+/**
+ * printPutchar - prints the string "_putchar"
+*/
 void printPutchar(void)
 
 {
