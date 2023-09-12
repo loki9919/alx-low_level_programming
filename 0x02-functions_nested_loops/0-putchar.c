@@ -9,10 +9,12 @@
 int main(void)
 
 {
+/*printPutchar - is to print the string "_putchar"*/
 	printPutchar();
 	return (0);
 }
 void printPutchar(void)
+
 {
 	putchar('_');
 	putchar('p');
