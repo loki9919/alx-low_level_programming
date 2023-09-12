@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	print_alphabet(void);
+	print_alphabet();
 	return (0);
 	}
 	void print_alphabet(void)
@@ -15,7 +15,7 @@ int main(void)
 {
 	while (alph <= 'z')
 	{
-		putchar("%c", alph);
+		putchar(alph);
 		alph++;
 	}
 	putchar('\n');
