@@ -8,6 +8,11 @@
 int main(void)
 
 {
+	int printPutchar();
+	return (0);
+}
+void prtintPutchar()
+{
 	putchar('_');
 	putchar('p');
 	putchar('u');
@@ -17,5 +22,4 @@ int main(void)
 	putchar('a');
 	putchar('r');
 	Putchar('\n');
-	return (0);
 }
