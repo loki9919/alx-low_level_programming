@@ -16,12 +16,12 @@ int main(void)
 				{
 					unsigned int third_digit = second_digit + 1;
 
-						while (third_digit <= 9)
+					while (th8ird_digit <= 9)
 						{
 							putchar(first_digit + '0');
 							putchar(second_digit + '0');
 							putchar(third_digit + '0');
-							if (first_digit != 7)
+						if (first_digit != 7)
 							{
 								putchar (',');
 									putchar (' ');
