@@ -25,6 +25,6 @@ int main(void)
 		}
 		first_digit++;
 	}
-	putchar(\n);
+	putchar('\n');
 	return (0);
 }
