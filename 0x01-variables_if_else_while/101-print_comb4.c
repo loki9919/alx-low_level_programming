@@ -16,7 +16,7 @@ int main(void)
 				{
 					unsigned int third_digit = second_digit + 1;
 
-						while (therd_digit <= 9)
+						while (third_digit <= 9)
 						{
 							putchar(first_digit + '0');
 							putchar(second_digit + '0');
