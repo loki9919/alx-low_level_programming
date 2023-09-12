@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -22,5 +21,5 @@ void printPutchar(void)
 	putchar('h');
 	putchar('a');
 	putchar('r');
-	Putchar('\n');
+	putchar('\n');
 }
