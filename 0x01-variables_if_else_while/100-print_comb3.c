@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	unsigned int firstt_digit = 0;
+	unsigned int first_digit = 0;
 
 	while (first_digit < 9)
 	{
