@@ -15,7 +15,6 @@ int main(void)
  * printPutchar - prints the string "_putchar"
 */
 void printPutchar(void)
-
 {
 	putchar('_');
 	putchar('p');
