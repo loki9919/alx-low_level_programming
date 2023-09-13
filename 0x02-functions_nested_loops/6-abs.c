@@ -7,7 +7,6 @@
  * Return: retern
 */
 int _abs(int);
-
 {
 	int n;
 	int i;
