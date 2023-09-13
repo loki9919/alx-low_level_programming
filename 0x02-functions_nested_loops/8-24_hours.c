@@ -5,6 +5,8 @@
 */
 void jack_bauer(void)
 {
+	int i;
+	int j;
 	i = 0 && i < 23;
 	j = 0 && j <= 59;
 	{
