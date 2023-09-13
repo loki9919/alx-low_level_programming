@@ -4,12 +4,10 @@
  * _abs - absolute value
  * Return: return n if positiv, else -n
 */
-int _abs(int)
+int _abs(int n)
+
 
 {
-	int n;
-	int i;
-	{
 		if (n >= 0)
 		{
 			return (n);
