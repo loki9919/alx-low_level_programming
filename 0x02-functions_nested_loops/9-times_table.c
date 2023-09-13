@@ -22,8 +22,8 @@ void times_table(void)
 			}
 			if (z < 10 && y > 0)
 				_putchar(' ');
-			else
-				_putchar('0' + z / 10);
+
+			_putchar('0' + z / 10);
 			_putchar('0' + z % 10);
 			y++;
 		}
