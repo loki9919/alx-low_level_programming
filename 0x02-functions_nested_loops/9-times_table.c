@@ -20,11 +20,15 @@ void times_table(void)
 				_putchar(' ');
 			}
 			if (z <= 9)
+			{
 				_putchar(' ');
+			}
 			else
+			{
 				_putchar( '0' + z / 10);
 				_putchar('0' + z % 10);
 				y++;
+			}
 		}
 		_putchar('\n');
 		x++;
