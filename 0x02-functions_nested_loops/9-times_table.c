@@ -16,10 +16,6 @@ void times_table(void)
 			int z = x * y;
 			if (y > 0)
 			{
-				_putchar('0' + z);
-			}
-			else
-			{
 				_putchar('.');
 				_putchar(' ');
 			}
