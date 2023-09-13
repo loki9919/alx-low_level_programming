@@ -20,7 +20,7 @@ void times_table(void)
 			}
 			else
 			{
-				_pitchar('.');
+				_putchar('.');
 				_putchar(' ');
 				if (z <= 9)
 				{
