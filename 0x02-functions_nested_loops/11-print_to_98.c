@@ -2,23 +2,35 @@
 
 /**
  * print_to_98 -  prints all natural numbers from n to 98 .
- * @n: check character.
+ * @n: starting number.
 */
 void print_to_98(int n)
 {
-	if (n < 98)
+	while (n != 98)
 	{
-		_putchar(n + '0');
-		_putchar(',');
-		_putchar(' ');
-		n++;
+		if (n < 98)
+		{
+			/* print the current number */
+			_putchar((n / 10) + '0');
+			_putchar((n % 10) + '0');
+			_putchar(',');
+			_putchar(' ');
+			n++;
+		}
+		else
+		{
+			/* print the current number */
+			_putchar((n / 10) + '0');
+			_putchar((n % 10) + '0');
+			_putchar(',');
+			_putchar(' ');
+			n--;
+		}
 	}
-	else
-	{
-		_putchar(n + '0');
-		_putchar(',');
-		_putchar(' ');
-		n--;
-	}
+	/**
+	 *  print the final number, 98
+	 */
+	_putchar('9');
+	_putchar('8');
 	_putchar('\n');
 }
