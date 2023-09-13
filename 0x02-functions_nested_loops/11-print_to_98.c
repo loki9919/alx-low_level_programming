@@ -21,15 +21,16 @@ void print_to_98(int n)
 				printf("%d\n");
 			}
 	else
+		int y;
 		{
-		for (x = n; x >= 98; x--)
-			if (x > 98)
+		for (y = n; y >= 98; y--)
+			if (y > 98)
 			{
-				prinf("%d, ", x);
+				prinf("%d, ", y);
 			}
 			else
 			{
-				Print("%d\n", x);
+				Print("%d\n", y);
 			}
 		}
 	}
