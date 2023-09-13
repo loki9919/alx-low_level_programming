@@ -1,12 +1,13 @@
 #include "main.h"
 
-/*
- * jack_bauer - prints every minute of the day
+/**
+ * jack_bauer - prints every minut and hour of the day
 */
 void jack_bauer(void)
 {
 	int h = 0;
 	int m = 0;
+
 	while (h < 24)
 	{
 		m = 0;
