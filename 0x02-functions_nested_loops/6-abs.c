@@ -6,7 +6,7 @@
  * @i: i = n x -1
  * Return: retern
 */
-int _abs(int)
+int _abs(int);
 
 {
 	int n;
