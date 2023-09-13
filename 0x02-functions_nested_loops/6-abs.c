@@ -14,7 +14,7 @@ int _abs(int)
 		if (n >= '0')
 		{
 			_putchar(n);
-			return (0)
+			return (0);
 		}
 		i = -n;
 		if (n < '0')
