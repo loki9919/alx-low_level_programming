@@ -2,9 +2,7 @@
 
 /**
  * _abs - absolute value
- * @n: the chatacter to check
- * @i: i = n x -1
- * Return: retern
+ * Return: return n if positiv, else -n
 */
 int _abs(int)
 
@@ -12,17 +10,12 @@ int _abs(int)
 	int n;
 	int i;
 	{
-		if (n >= '0')
+		if (n >= 0)
 		{
-			_putchar(n);
-			return (0);
+			return (n);
 		}
-		i = -n;
-		if (n < '0')
-		{ 
-			_putchar(i);
-			return (-1);
+		else
+		{
+			return(-n);
 		}
-		_putchar('\n');
-	}
 }		
