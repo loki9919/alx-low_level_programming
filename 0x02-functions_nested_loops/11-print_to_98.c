@@ -7,7 +7,7 @@
 */
 void print_to_98(int n)
 {
-	int x, y;
+	int x;
 
 	if (n <= 98)
 	{
@@ -19,21 +19,21 @@ void print_to_98(int n)
 			}
 			else
 			{
-				printf("%d\n");
+				printf("%d\n", x);
 			}
 		}
 	}
 	else
 		{
-		for (y = n; y >= 98; y--)
+		for (x = n; x >= 98; x--)
 		{
-			if (y > 98)
+			if (x > 98)
 			{
-				printf("%d, ", y);
+				printf("%d, ", x);
 			}
 			else
 			{
-				printf("%d\n", y);
+				printf("%d\n", x);
 			}
 		}
 	}
