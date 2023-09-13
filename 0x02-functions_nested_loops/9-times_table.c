@@ -8,6 +8,10 @@
 */
 void times_table(void)
 {
+	int x = 0;
+	int y = 0;
+	int z = 0;
+
 	while (x < 10)
 	{
 		while (y < 10)
