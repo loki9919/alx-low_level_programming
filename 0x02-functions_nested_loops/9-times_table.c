@@ -25,8 +25,11 @@ void times_table(void)
 				{
 					_putchar(' ');
 				}
-				_putchar('0' +z);
-			
+				if ( z >= 10)
+				{
+					_putchar('0' + z /10);
+				}
+				_putchar('0' + z % 10);
 			}
 			y++;
 		}
