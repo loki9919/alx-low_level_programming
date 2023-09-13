@@ -11,7 +11,7 @@ void times_table(void)
 	{
 		int y = 0;
 
-		while (y <= 9)
+		while (y <= 9 && y > 0)
 		{
 			int z = x * y;
 
