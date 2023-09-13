@@ -20,6 +20,7 @@ void print_to_98(int n)
 			{
 				printf("%d\n");
 			}
+	}
 	else
 		{
 		for (y = n; y >= 98; y--)
@@ -32,5 +33,4 @@ void print_to_98(int n)
 				Printf("%d\n", y);
 			}
 		}
-	}
 }
