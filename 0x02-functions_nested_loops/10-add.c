@@ -1,12 +1,12 @@
-
 #include "main.h"
 
 /**
- *add - x + y
-Return: z the sum off x and y
+ * add - x + y
+ * Return: the sum of two numbers
 */
 int add(int x, int y)
 {
 	int z = x + y;
+
 	return (z);
 }
