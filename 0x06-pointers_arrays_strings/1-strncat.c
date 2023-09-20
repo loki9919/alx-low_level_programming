@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _stencat - Concatenates two strings up to n bytes from src.
+ * _strncat - Concatenates two strings up to n bytes from src.
  * @dest: the distination string
  * @src: the source string
  * @n: the maximum nuber of bytes to concatenate from rsc
