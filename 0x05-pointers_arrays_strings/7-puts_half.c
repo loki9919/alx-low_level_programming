@@ -5,7 +5,7 @@
  * if odd len, n = (length_of_the_string - 1) / 2
  * @str: input string
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int lenght, a ,n;
 
