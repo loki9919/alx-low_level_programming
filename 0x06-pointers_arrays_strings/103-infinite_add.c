@@ -9,7 +9,7 @@ void rev_string(char *n)
 {
 	int i = 0;
 	int j = 0;
-	char temp;
+	int temp;
 
 	while (*(n +i) != '\0')
 	{
@@ -23,6 +23,7 @@ void rev_string(char *n)
 		*(n + j) = *(n + i);
 		temp = *(n + i);
 	}
+	if (temp) {}
 }
 /**
  * infinite_add - add 2 numbers together
