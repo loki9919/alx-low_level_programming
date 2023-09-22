@@ -12,20 +12,18 @@ char *cap_string(char *str)
 	int j;
 	char sep[14] = " \t\n,;.!?\"(){}";
 
-	while (str[i])
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		while (!(str[i] >= 'a' && str[i] <= 'z'))
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			i++;
-		}
-		for (j = 0; j < 13; j++)
-		{
-			if (str[i - 1] == sep[j] || i == 0)
+			for (j = 0; sep[j] != '\0'; j++)
 			{
-				str[i] -= 32;
+				if (str[i - 1] == sep[j] || i == 0)
+				{
+					str[i] -= 32;
+				}
 			}
 		}
-		i++;
 	}
 	return (str);
 }
