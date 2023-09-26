@@ -8,7 +8,7 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int n = 0;
+	char *result = '\0';
 	int r;
 	int found;
 
@@ -19,15 +19,15 @@ char *_strpbrk(char *s, char *accept)
 			if (*s == accept[r])
 			{
 				found = 1;
+				result = s;
 				break;
 			}
 		}
 		if (!found)
 		{
-			return (n);
+			break;
 		}
-		n++;
 		s++;
 	}
-	return (n);
+	return (result);
 }
