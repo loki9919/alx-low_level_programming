@@ -10,6 +10,7 @@ char *_strpbrk(char *s, char *accept)
 {
 	unsigned int n = 0;
 	int r;
+	int found;
 
 	while (*s)
 	{
@@ -17,12 +18,15 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (*s == accept[r])
 			{
-				n++;
+				found = 1;
 				break;
 			}
-			else if (accept [r + 1] == '\0')
-				return (n);
 		}
+		if (!found)
+		{
+			return (n);
+		}
+		n++;
 		s++;
 	}
 	return (n);
