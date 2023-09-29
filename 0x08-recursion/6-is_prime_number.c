@@ -1,5 +1,7 @@
 #include "main.h"
 
+int checker(int n, int i);
+
 /**
  * is_prime_number -  returns 1 if the input integer is
  * a prime number, otherwise return 0
@@ -12,15 +14,15 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (actual_prime(n, n - 1));
+	return (checker(n, n - 1));
 }
 /**
- * actual_prime - check the actual prime
+ * checker - check the actual prime
  * @n: input
  * @i: checker number
  * Return: if n is a prime number return 1, other wise 0
  */
-int actual_prime(int n, int i)
+int checker(int n, int i)
 {
 	if (i == 1)
 	{
@@ -30,5 +32,5 @@ int actual_prime(int n, int i)
 	{
 		return (0);
 	}
-	return (actual_prime(n, i - 1));
+	return (checker(n, i - 1));
 }
