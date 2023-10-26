@@ -7,13 +7,14 @@
  */
 listint_t *reverse_listint(listint_t **head)
 {
-	listint_t *reverse = *head;
+	listint_t *reverse;
 	listint_t *temp;
 
 	if (head  == NULL)
 	{
 		return (NULL);
 	}
+	reverse = *head;
 	while (reverse != NULL)
 	{
 		reverse = reverse->next;
