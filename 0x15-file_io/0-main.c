@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "file.h"
+#include "main.h"
 
 /**
  * main - check the code

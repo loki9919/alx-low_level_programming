@@ -1,4 +1,4 @@
-#include "file.h"
+#include "main.h"
 
 /**
  * read_textfile - program reads a text file and prints the letters
